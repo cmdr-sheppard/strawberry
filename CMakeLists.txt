@@ -212,7 +212,18 @@ find_package(GTest)
 
 pkg_check_modules(LIBSPARSEHASH IMPORTED_TARGET libsparsehash)
 
-find_package(RapidJSON)
+find_package(discord-rpc)
+if(TARGET discord-rpc::discord-rpc)
+  set(DISCORD_RPC_FOUND ON)
+  set(DISCORD_RPC_LIBRARIES "discord-rpc::discord-rpc")
+else()
+  find_library(DISCORD_RPC_LIBRARY discord-rpc)
+  find_path(DISCORD_RPC_INCLUDE_DIRS NAMES discord-rpc.h)
+  if(DISCORD_RPC_LIBRARY)
+    set(DISCORD_RPC_FOUND ON)
+    set(DISCORD_RPC_LIBRARIES ${DISCORD_RPC_LIBRARY})
+  endif()
+endif()
 
 set(QT_VERSION_MAJOR 6)
 set(QT_MIN_VERSION 6.4.0)
@@ -367,7 +378,7 @@ optional_component(STREAMTAGREADER ON "Stream tagreader"
 )
 
 optional_component(DISCORD_RPC ON "Discord Rich Presence"
-  DEPENDS "RapidJSON" RapidJSON_FOUND
+  DEPENDS "discord-rpc" DISCORD_RPC_FOUND
 )
 
 if(HAVE_SONGFINGERPRINTING OR HAVE_MUSICBRAINZ)
@@ -1492,11 +1503,6 @@ if(LINUX AND LSB_RELEASE_EXEC AND DPKG_BUILDPACKAGE)
   add_subdirectory(debian)
 endif()
 
-if(HAVE_DISCORD_RPC)
-  add_subdirectory(3rdparty/discord-rpc)
-  target_include_directories(strawberry_lib PUBLIC 3rdparty/discord-rpc)
-endif()
-
 if(HAVE_TRANSLATIONS)
   qt_add_lupdate(strawberry_lib TS_FILES "${CMAKE_SOURCE_DIR}/src/translations/strawberry_en_US.ts" OPTIONS -locations none -no-ui-lines -no-obsolete)
   file(GLOB_RECURSE ts_files ${CMAKE_SOURCE_DIR}/src/translations/*.ts)
@@ -1516,6 +1522,10 @@ target_include_directories(strawberry_lib PUBLIC
 
 if(SINGLEAPPLICATION_INCLUDE_DIRS)
   target_include_directories(strawberry_lib SYSTEM PUBLIC ${SINGLEAPPLICATION_INCLUDE_DIRS})
+endif()
+
+if(DISCORD_RPC_INCLUDE_DIRS)
+  target_include_directories(strawberry_lib SYSTEM PUBLIC ${DISCORD_RPC_INCLUDE_DIRS})
 endif()
 
 target_link_libraries(strawberry_lib PUBLIC
@@ -1557,7 +1567,7 @@ target_link_libraries(strawberry_lib PUBLIC
   $<$<BOOL:${WIN32}>:dsound dwmapi getopt-win::getopt>
   $<$<BOOL:${MSVC}>:WindowsApp>
   KDAB::kdsingleapplication
-  $<$<BOOL:${HAVE_DISCORD_RPC}>:discord-rpc>
+  $<$<BOOL:${HAVE_DISCORD_RPC}>:${DISCORD_RPC_LIBRARIES}>
 )
 
 if(APPLE)

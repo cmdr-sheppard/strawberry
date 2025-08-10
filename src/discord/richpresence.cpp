@@ -72,7 +72,7 @@ void RichPresence::ReloadSettings() {
   s.endGroup();
 
   if (enabled && !initialized_) {
-    Discord_Initialize(kDiscordApplicationId, nullptr, 0);
+    Discord_Initialize(kDiscordApplicationId, nullptr, 0, nullptr);
     initialized_ = true;
   }
   else if (!enabled && initialized_) {
@@ -117,7 +117,7 @@ void RichPresence::SendPresenceUpdate() {
 
   ::DiscordRichPresence presence_data{};
   memset(&presence_data, 0, sizeof(presence_data));
-  presence_data.type = 2; // Listening
+  //presence_data.type = 2; // Listening
   presence_data.largeImageKey = kStrawberryIconResourceName;
   presence_data.smallImageKey = kStrawberryIconResourceName;
   presence_data.smallImageText = kStrawberryIconDescription;
