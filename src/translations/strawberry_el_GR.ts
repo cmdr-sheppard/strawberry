@@ -284,7 +284,7 @@
     </message>
     <message>
       <source>Artist</source>
-      <translation>Καλλιτέχνης </translation>
+      <translation>Καλλιτέχνης</translation>
     </message>
     <message>
       <source>Album</source>
@@ -5080,7 +5080,7 @@ Are you sure you want to continue?</source>
     </message>
     <message>
       <source>after</source>
-      <translation type="unfinished">after</translation>
+      <translation>μετά</translation>
     </message>
     <message>
       <source>before</source>
@@ -5104,43 +5104,43 @@ Are you sure you want to continue?</source>
     </message>
     <message>
       <source>between</source>
-      <translation type="unfinished">between</translation>
+      <translation>μεταξύ</translation>
     </message>
     <message>
       <source>contains</source>
-      <translation type="unfinished">contains</translation>
+      <translation>περιέχει</translation>
     </message>
     <message>
       <source>does not contain</source>
-      <translation type="unfinished">does not contain</translation>
+      <translation>δεν περιέχει</translation>
     </message>
     <message>
       <source>starts with</source>
-      <translation type="unfinished">starts with</translation>
+      <translation>ξεκινά με</translation>
     </message>
     <message>
       <source>ends with</source>
-      <translation type="unfinished">ends with</translation>
+      <translation>τελειώνει με</translation>
     </message>
     <message>
       <source>greater than</source>
-      <translation type="unfinished">greater than</translation>
+      <translation>μεγαλύτερο από</translation>
     </message>
     <message>
       <source>less than</source>
-      <translation type="unfinished">less than</translation>
+      <translation>λιγότερο από</translation>
     </message>
     <message>
       <source>equals</source>
-      <translation type="unfinished">equals</translation>
+      <translation>ίσον</translation>
     </message>
     <message>
       <source>not equals</source>
-      <translation type="unfinished">not equals</translation>
+      <translation>δεν ισούται με</translation>
     </message>
     <message>
       <source>empty</source>
-      <translation type="unfinished">empty</translation>
+      <translation>κενό</translation>
     </message>
     <message>
       <source>not empty</source>
