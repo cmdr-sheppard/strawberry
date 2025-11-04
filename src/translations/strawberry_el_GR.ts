@@ -1801,7 +1801,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Not mounted - double click to mount</source>
-      <translation type="unfinished">Not mounted - double click to mount</translation>
+      <translation>Δεν υπάρχει προσάρτηση (mount) - διπλό κλικ για προσάρτηση</translation>
     </message>
     <message>
       <source>Double click to open</source>
@@ -2268,7 +2268,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Are you sure you want to reset this song&apos;s play statistics?</source>
-      <translation type="unfinished">Are you sure you want to reset this song&apos;s play statistics?</translation>
+      <translation>Είστε βέβαιοι ότι θέλετε να επαναφέρετε τα στατιστικά σε αυτό το τραγούδι&apos;;</translation>
     </message>
     <message>
       <source>loading...</source>
@@ -2734,7 +2734,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Change shortcut...</source>
-      <translation type="unfinished">Change shortcut...</translation>
+      <translation>Αλλαγή συντόμευσης...</translation>
     </message>
     <message>
       <source>Use KGlobalAccel shortcuts when available</source>
@@ -2742,22 +2742,22 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Using X11 shortcuts is not recommended and can cause keyboard to become unresponsive! Shortcuts on should usually be used through MPRIS2 / KGlobalAccel.</source>
-      <translation type="unfinished">Using X11 shortcuts is not recommended and can cause keyboard to become unresponsive! Shortcuts on should usually be used through MPRIS2 / KGlobalAccel.</translation>
+      <translation>Η χρήση συντομεύσεων X11 δεν συνιστάται και μπορεί να προκαλέσει ανανταπόκριση στο πληκτρολόγιο! Συνήθως οι συντομεύσεις θα πρέπει να χρησιμοποιηθούν μέσω του MPRIS2 / KGlobalAccel.</translation>
     </message>
   </context>
   <context>
     <name>GroupByDialog</name>
     <message>
       <source>Collection advanced grouping</source>
-      <translation type="unfinished">Collection advanced grouping</translation>
+      <translation>Προηγμένη ομαδοποίηση συλλογής</translation>
     </message>
     <message>
       <source>You can change the way the songs in the collection are organized.</source>
-      <translation type="unfinished">You can change the way the songs in the collection are organized.</translation>
+      <translation>Μπορείτε να αλλάξετε τον τρόπο οργάνωσης των τραγουδιών της συλλογής.</translation>
     </message>
     <message>
       <source>Group Collection by...</source>
-      <translation type="unfinished">Group Collection by...</translation>
+      <translation>Ομαδοποίηση Συλλογής κατά...</translation>
     </message>
     <message>
       <source>First level</source>
@@ -2890,7 +2890,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Warning: Play counts and last played from last.fm will completely replace the same data for the matched songs. Play counts will replace the data based on artist and song title for the same albums! Please backup your database before you start.</source>
-      <translation type="unfinished">Warning: Play counts and last played from last.fm will completely replace the same data for the matched songs. Play counts will replace the data based on artist and song title for the same albums! Please backup your database before you start.</translation>
+      <translation>Προειδοποίηση: Οι μετρήσεις παιχνιδιού και η τελευταία αναπαραγωγή από last.fm θα αντικαταστήσουν πλήρως τα ίδια δεδομένα για τα τραγούδια που ταιριάζουν. Οι μετρήσεις αναπαραγωγής θα αντικαταστήσουν τα δεδομένα που βασίζονται στον τίτλο του καλλιτέχνη και του τραγουδιού για τα ίδια άλμπουμ! Παρακαλώ δημιουργήστε αντίγραφα ασφαλείας της βάσης δεδομένων σας πριν ξεκινήσετε.</translation>
     </message>
     <message>
       <source>Go!</source>
@@ -3761,7 +3761,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Show a notification when I resume playback</source>
-      <translation type="unfinished">Show a notification when I resume playback</translation>
+      <translation>Εμφάνιση ειδοποίησης όταν συνεχίσω την αναπαραγωγή</translation>
     </message>
     <message>
       <source>Include album art in the notification</source>
@@ -3869,7 +3869,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Add song track tag</source>
-      <translation type="unfinished">Add song track tag</translation>
+      <translation>Προσθήκη ετικέτας τραγουδιού track</translation>
     </message>
     <message>
       <source>Add song genre tag</source>
@@ -4054,19 +4054,19 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Remove problematic characters from filenames</source>
-      <translation type="unfinished">Remove problematic characters from filenames</translation>
+      <translation>Αφαίρεση προβληματικών χαρακτήρων από ονόματα αρχείων</translation>
     </message>
     <message>
       <source>Restrict to characters allowed on FAT filesystems</source>
-      <translation type="unfinished">Restrict to characters allowed on FAT filesystems</translation>
+      <translation>Περιορισμός στους χαρακτήρες που επιτρέπονται στα FAT συστήματα αρχείων</translation>
     </message>
     <message>
       <source>Restrict characters to ASCII</source>
-      <translation type="unfinished">Restrict characters to ASCII</translation>
+      <translation>Περιορισμός χαρακτήρων στο ASCII</translation>
     </message>
     <message>
       <source>Allow extended ASCII characters</source>
-      <translation type="unfinished">Allow extended ASCII characters</translation>
+      <translation>Να επιτρέπονται εκτεταμένοι χαρακτήρες ASCII</translation>
     </message>
     <message>
       <source>Replace spaces with underscores</source>
@@ -4106,7 +4106,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Artist&apos;s initial</source>
-      <translation type="unfinished">Artist&apos;s initial</translation>
+      <translation>Αρχικά καλλιτέχνη</translation>
     </message>
     <message>
       <source>Album artist</source>
@@ -4279,7 +4279,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Play Count</source>
-      <translation type="unfinished">Play Count</translation>
+      <translation>Φορές αναπαραγωγής</translation>
     </message>
     <message>
       <source>Skip Count</source>
@@ -4291,15 +4291,15 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Sample Rate</source>
-      <translation type="unfinished">Sample Rate</translation>
+      <translation>Ρυθμός Δειγμάτων</translation>
     </message>
     <message>
       <source>Bit Depth</source>
-      <translation type="unfinished">Bit Depth</translation>
+      <translation>Βάθος bit</translation>
     </message>
     <message>
       <source>Bitrate</source>
-      <translation type="unfinished">Bitrate</translation>
+      <translation>Ρυθμός μετάδοσης bit</translation>
     </message>
     <message>
       <source>File Name</source>
@@ -4319,7 +4319,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Date Modified</source>
-      <translation type="unfinished">Date Modified</translation>
+      <translation>Ημερομηνία τροποποίησης</translation>
     </message>
     <message>
       <source>Date Created</source>
@@ -4339,7 +4339,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Rating</source>
-      <translation type="unfinished">Rating</translation>
+      <translation>Βαθμολογία</translation>
     </message>
     <message>
       <source>CUE</source>
@@ -4378,7 +4378,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>No matches found.  Clear the search box to show the whole playlist again.</source>
-      <translation type="unfinished">No matches found.  Clear the search box to show the whole playlist again.</translation>
+      <translation>Δεν βρέθηκαν αποτελέσματα. Καθαρίστε το πλαίσιο αναζήτησης για να εμφανιστεί ολόκληρη η λίστα αναπαραγωγής.</translation>
     </message>
   </context>
   <context>
@@ -4392,26 +4392,26 @@ If there are no matches then it will use the largest image in the directory.</so
     <name>PlaylistGeneratorInserter</name>
     <message>
       <source>Loading smart playlist</source>
-      <translation type="unfinished">Loading smart playlist</translation>
+      <translation>Φόρτωση έξυπνης λίστας αναπαραγωγής</translation>
     </message>
   </context>
   <context>
     <name>PlaylistHeader</name>
     <message>
       <source>&amp;Hide...</source>
-      <translation type="unfinished">&amp;Hide...</translation>
+      <translation>&amp;Απόκρυψη...</translation>
     </message>
     <message>
       <source>&amp;Stretch columns to fit window</source>
-      <translation type="unfinished">&amp;Stretch columns to fit window</translation>
+      <translation>&amp;Επέκταση στηλών για προσαρμογή στο παράθυρο</translation>
     </message>
     <message>
       <source>&amp;Reset columns to default</source>
-      <translation type="unfinished">&amp;Reset columns to default</translation>
+      <translation>&amp;Επαναφορά στηλών στις προεπιλογές</translation>
     </message>
     <message>
       <source>&amp;Lock rating</source>
-      <translation type="unfinished">&amp;Lock rating</translation>
+      <translation>&amp;Κλείδωμα βαθμολογίας</translation>
     </message>
     <message>
       <source>&amp;Align text</source>
@@ -4446,40 +4446,40 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Delete</source>
-      <translation type="unfinished">Delete</translation>
+      <translation>Διαγραφή</translation>
     </message>
     <message>
       <source>Save playlist</source>
       <comment>Save playlist menu action.</comment>
-      <translation type="unfinished">Save playlist</translation>
+      <translation>Αποθήκευση λίστας αναπαραγωγής</translation>
     </message>
     <message>
       <source>Copy to device...</source>
-      <translation type="unfinished">Copy to device...</translation>
+      <translation>Αντιγραφή στη συσκευή...</translation>
     </message>
     <message>
       <source>Enter the name of the folder</source>
-      <translation type="unfinished">Enter the name of the folder</translation>
+      <translation>Εισάγετε το όνομα του φακέλου</translation>
     </message>
     <message>
       <source>Playlist</source>
-      <translation type="unfinished">Playlist</translation>
+      <translation>Λίστα αναπαραγωγής</translation>
     </message>
     <message>
       <source>Copy to device</source>
-      <translation type="unfinished">Copy to device</translation>
+      <translation>Αντιγραφή στη συσκευή</translation>
     </message>
     <message>
       <source>Playlist must be open first.</source>
-      <translation type="unfinished">Playlist must be open first.</translation>
+      <translation>Η λίστα αναπαραγωγής πρέπει να είναι ανοιχτή πρώτα.</translation>
     </message>
     <message>
       <source>Remove playlists</source>
-      <translation type="unfinished">Remove playlists</translation>
+      <translation>Αφαίρεση λιστών αναπαραγωγής</translation>
     </message>
     <message>
       <source>You are about to remove %1 playlists from your favorites, are you sure?</source>
-      <translation type="unfinished">You are about to remove %1 playlists from your favorites, are you sure?</translation>
+      <translation>Πρόκειται να αφαιρέσετε %1 λίστες αναπαραγωγής από τα αγαπημένα σας, είστε σίγουρος/η?</translation>
     </message>
   </context>
   <context>
@@ -4497,7 +4497,7 @@ If there are no matches then it will use the largest image in the directory.</so
     <name>PlaylistManager</name>
     <message>
       <source>Playlist</source>
-      <translation type="unfinished">Playlist</translation>
+      <translation>Λίστα αναπαραγωγής</translation>
     </message>
     <message>
       <source>Couldn&apos;t create playlist</source>
@@ -4506,15 +4506,15 @@ If there are no matches then it will use the largest image in the directory.</so
     <message>
       <source>Save playlist</source>
       <comment>Title of the playlist save dialog.</comment>
-      <translation type="unfinished">Save playlist</translation>
+      <translation>Αποθήκευση λίστας αναπαραγωγής</translation>
     </message>
     <message>
       <source>Unknown playlist extension</source>
-      <translation type="unfinished">Unknown playlist extension</translation>
+      <translation>Άγνωστη επέκταση λίστας αναπαραγωγής</translation>
     </message>
     <message>
       <source>Unknown file extension for playlist.</source>
-      <translation type="unfinished">Unknown file extension for playlist.</translation>
+      <translation>Άγνωστη επέκταση αρχείου για τη λίστα αναπαραγωγής.</translation>
     </message>
     <message>
       <source>%1 selected of</source>
@@ -4618,7 +4618,7 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>Intro tracks</source>
-      <translation type="unfinished">Intro tracks</translation>
+      <translation>Εισαγωγικά κομμάτια</translation>
     </message>
     <message>
       <source>Don&apos;t shuffle</source>
@@ -4697,11 +4697,11 @@ If there are no matches then it will use the largest image in the directory.</so
     </message>
     <message>
       <source>A&amp;utomatic</source>
-      <translation type="unfinished">A&amp;utomatic</translation>
+      <translation>Α&amp;υτόματο</translation>
     </message>
     <message>
       <source>Absolu&amp;te</source>
-      <translation type="unfinished">Absolu&amp;te</translation>
+      <translation>Απόλυ&amp;το</translation>
     </message>
     <message>
       <source>Re&amp;lative</source>
@@ -4896,11 +4896,11 @@ Are you sure you want to continue?</source>
     </message>
     <message>
       <source>Play given playlist</source>
-      <translation type="unfinished">Play given playlist</translation>
+      <translation>Αναπαραγωγή δοσμένης λίστας αναπαραγωγής</translation>
     </message>
     <message>
       <source>Other options</source>
-      <translation type="unfinished">Other options</translation>
+      <translation>Άλλες επιλογές</translation>
     </message>
     <message>
       <source>Display the on-screen-display</source>
@@ -4912,7 +4912,7 @@ Are you sure you want to continue?</source>
     </message>
     <message>
       <source>Change the language</source>
-      <translation type="unfinished">Change the language</translation>
+      <translation>Αλλαγή γλώσσας</translation>
     </message>
     <message>
       <source>Resize the window</source>
@@ -4932,7 +4932,7 @@ Are you sure you want to continue?</source>
     </message>
     <message>
       <source>Print out version information</source>
-      <translation type="unfinished">Print out version information</translation>
+      <translation>Πληροφορίες έκδοσης</translation>
     </message>
     <message>
       <source>Failed to create directory %1.</source>
@@ -4952,27 +4952,27 @@ Are you sure you want to continue?</source>
     </message>
     <message>
       <source>Unknown</source>
-      <translation type="unfinished">Unknown</translation>
+      <translation>Άγνωστο</translation>
     </message>
     <message>
       <source>LUFS</source>
-      <translation type="unfinished">LUFS</translation>
+      <translation>LUFS</translation>
     </message>
     <message>
       <source>LU</source>
-      <translation type="unfinished">LU</translation>
+      <translation>LU</translation>
     </message>
     <message>
       <source>File %1 is not recognized as a valid audio file.</source>
-      <translation type="unfinished">File %1 is not recognized as a valid audio file.</translation>
+      <translation>Το αρχείο %1 δεν αναγνωρίζεται ως έγκυρο αρχείο ήχου.</translation>
     </message>
     <message>
       <source>1 day</source>
-      <translation type="unfinished">1 day</translation>
+      <translation>1 ημέρα</translation>
     </message>
     <message>
       <source>%1 days</source>
-      <translation type="unfinished">%1 days</translation>
+      <translation>%1 ημέρες</translation>
     </message>
     <message>
       <source>Today</source>
@@ -5032,11 +5032,11 @@ Are you sure you want to continue?</source>
     </message>
     <message>
       <source>File does not exist</source>
-      <translation type="unfinished">File does not exist</translation>
+      <translation>Το αρχείο δεν υπάρχει</translation>
     </message>
     <message>
       <source>File could not be opened</source>
-      <translation type="unfinished">File could not be opened</translation>
+      <translation>Δεν ήταν δυνατό το άνοιγμα του αρχείου</translation>
     </message>
     <message>
       <source>Could not parse file</source>
@@ -5048,7 +5048,7 @@ Are you sure you want to continue?</source>
     </message>
     <message>
       <source>Unknown error</source>
-      <translation type="unfinished">Unknown error</translation>
+      <translation>Άγνωστο σφάλμα</translation>
     </message>
     <message>
       <source>Prefix a search term with a field name to limit the search to that field, e.g.:</source>
@@ -5056,11 +5056,11 @@ Are you sure you want to continue?</source>
     </message>
     <message>
       <source>artist</source>
-      <translation type="unfinished">artist</translation>
+      <translation>καλλιτέχνης</translation>
     </message>
     <message>
       <source>searches for all artists containing the word %1. </source>
-      <translation type="unfinished">searches for all artists containing the word %1. </translation>
+      <translation>αναζητήσεις για όλους τους καλλιτέχνες που περιέχουν τη λέξη %1. </translation>
     </message>
     <message>
       <source>Search terms for numerical fields can be prefixed with %1 or %2 to refine the search, e.g.: </source>
@@ -5076,7 +5076,7 @@ Are you sure you want to continue?</source>
     </message>
     <message>
       <source>Available fields</source>
-      <translation type="unfinished">Available fields</translation>
+      <translation>Διαθέσιμα πεδία</translation>
     </message>
     <message>
       <source>after</source>
@@ -5084,23 +5084,23 @@ Are you sure you want to continue?</source>
     </message>
     <message>
       <source>before</source>
-      <translation type="unfinished">before</translation>
+      <translation>πριν</translation>
     </message>
     <message>
       <source>on</source>
-      <translation type="unfinished">on</translation>
+      <translation>στο</translation>
     </message>
     <message>
       <source>not on</source>
-      <translation type="unfinished">not on</translation>
+      <translation>όχι σε</translation>
     </message>
     <message>
       <source>in the last</source>
-      <translation type="unfinished">in the last</translation>
+      <translation>στο τελευταίο</translation>
     </message>
     <message>
       <source>not in the last</source>
-      <translation type="unfinished">not in the last</translation>
+      <translation>όχι στο τελευταίο</translation>
     </message>
     <message>
       <source>between</source>
